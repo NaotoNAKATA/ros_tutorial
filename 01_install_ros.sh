@@ -10,6 +10,7 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 
 # 鍵の設定
 wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
+sudo apt update
 
 # インストール
 sudo apt install ros-melodic-desktop-full
@@ -18,9 +19,8 @@ sudo apt install ros-melodic-desktop-full
 sudo rosdep init
 rosdep update
 
-
 # 環境設定
-#echo "source /opt/ros/hydro/setup.bash" >> ~/.bashrc
+#echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 #source ~/.bashrc
 
 # rosinstallの準備
