@@ -9,7 +9,7 @@ WORK=~/work/ros_tutorial
 # 環境の設定
 source ${WORK}/catkin_ws/devel/setup.bash
 
-# 
+# ディレクトリの移動 
 roscd
 cd ../src
 
