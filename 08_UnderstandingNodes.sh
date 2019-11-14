@@ -1,10 +1,14 @@
 #!/bin/bash
 
 #
-# シンプルなサービスとクライアントを書く(C++)
+# ROSのノードを理解する
 #
 
 WORK=~/work/ros_tutorial
+
+# 環境の設定
+source ${WORK}/catkin_ws/devel/setup.bash
+
 
 # 環境の設定
 source ${WORK}/catkin_ws/devel/setup.bash
