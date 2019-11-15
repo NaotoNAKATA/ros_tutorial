@@ -16,7 +16,7 @@ sudo apt update
 sudo apt install ros-melodic-desktop-full
 
 # rosdepの初期化
-sudo rosdep init
+sudo -E rosdep init
 rosdep update
 
 # 環境設定
