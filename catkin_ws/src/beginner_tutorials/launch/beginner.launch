@@ -1,10 +1,16 @@
 <launch>
 
 	<group ns="beginner_tutorials1">
-		<node pkg="talker" name="talk1" type="nodelet"/>
+		<node pkg="beginner_tutorials" name="talk1" type="talker"/>
 	</group>
 	<group ns="beginner_tutorials1">
-		<node pkg="listener" name="listen1" type="nodelet"/>
+		<node pkg="beginner_tutorials" name="listen1" type="listener"/>
+	</group>
+	<group ns="beginner_tutorials1">
+		<node pkg="beginner_tutorials" name="listen2" type="listener"/>
+	</group>
+	<group ns="beginner_tutorials1">
+		<node pkg="beginner_tutorials" name="listen3" type="listener.py"/>
 	</group>
 
 </launch>
