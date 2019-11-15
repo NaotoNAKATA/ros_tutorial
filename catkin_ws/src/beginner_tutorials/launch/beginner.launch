@@ -1,0 +1,11 @@
+<launch>
+
+	<group ns="beginner_tutorials1">
+		<node pkg="talker" name="talk1" type="nodelet"/>
+	</group>
+	<group ns="beginner_tutorials1">
+		<node pkg="listener" name="listen1" type="nodelet"/>
+	</group>
+
+</launch>
+
