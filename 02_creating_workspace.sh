@@ -4,7 +4,7 @@
 # Creating workspace
 #
 
-WORK=~/work/ros_tutorial
+WORK=`pwd`
 
 # 環境の設定
 source /opt/ros/melodic/setup.bash

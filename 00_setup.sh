@@ -4,7 +4,7 @@
 # Creating workspace
 #
 
-WORK=~/work/ros_tutorial
+WORK=`pwd`
 
 # 作成したワークスペースの環境を設定する
 source ${WORK}/catkin_ws/devel/setup.bash

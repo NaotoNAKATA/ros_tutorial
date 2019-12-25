@@ -4,7 +4,7 @@
 # ROSパッケージを作る
 #
 
-WORK=~/work/ros_tutorial
+WORK=`pwd`
 
 # 環境の設定
 source ${WORK}/catkin_ws/devel/setup.bash

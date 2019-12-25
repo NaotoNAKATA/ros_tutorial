@@ -4,7 +4,7 @@
 # シンプルな配信者(Publisher)と購読者(Subscriber)を書く(C++)
 #
 
-WORK=~/work/ros_tutorial
+WORK=`pwd`
 
 # 環境の設定
 source ${WORK}/catkin_ws/devel/setup.bash
